@@ -1,26 +1,20 @@
-import React from "react";
+import React from 'react';
+import Navbar from './Navbar'; // Ajusta la ruta según la ubicación de tu archivo
+import Jumbotron from './Jumbotron'; // Ajusta la ruta según la ubicación de tu archivo
+import Cards from './Cards'; // Ajusta la ruta según la ubicación de tu archivo
+import Footer from './Footer'; // Ajusta la ruta según la ubicación de tu archivo
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importación de Bootstrap
+import '../../styles/index.css'; // Importación de estilos personalizados
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
 const Home = () => {
-	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
+  return (
+    <>
+      <Navbar />
+      <Jumbotron />
+      <Cards />
+      <Footer />
+    </>
+  );
 };
 
 export default Home;
