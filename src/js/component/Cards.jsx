@@ -3,7 +3,7 @@ import React from 'react';
 const Cards = () => {
   return (
     <div className="container my-5">
-      <div className="row gx-4 gy-4"> {/* Adjusted row for spacing */}
+      <div className="row gx-4 gy-4">
         {/* Card 1 */}
         <div className="col-md-3 d-flex justify-content-center mb-3">
           <div className="card" style={{ width: '16rem' }}>
