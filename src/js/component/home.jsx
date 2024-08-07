@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar'; // Ajusta la ruta según la ubicación de tu archivo
-import Jumbotron from './Jumbotron'; // Ajusta la ruta según la ubicación de tu archivo
-import Cards from './Cards'; // Ajusta la ruta según la ubicación de tu archivo
-import Footer from './Footer'; // Ajusta la ruta según la ubicación de tu archivo
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importación de Bootstrap
-import '../../styles/index.css'; // Importación de estilos personalizados
+import Navbar from './Navbar';
+import Jumbotron from './Jumbotron';
+import Cards from './Cards'; 
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../styles/index.css';
 
 const Home = () => {
   return (
